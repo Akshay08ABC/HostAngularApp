@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Steps to deploy Angular App in github pages
+
+- Step1 - Execute command:
+    ng add angular-cli-ghpages
+- Step2 - Execute deploy command
+    ng deploy --repo=https://github.com/Akshay08ABC/HostAngularApp.git --name="akshay08abc" 
+    --base-href=/HostAngularApp/  
+
+- Go to Settings -> pages 
+    Change branch to "gh-pages" and set path to "root".
